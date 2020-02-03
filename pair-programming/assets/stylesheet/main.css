@@ -52,6 +52,7 @@ table {
 /* General */
 body {
     line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 * {
@@ -64,12 +65,20 @@ a {
     max-width: 1200px;
     margin: 0 auto;
 }
+.flex-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .flex {
     display: flex;
     justify-content: space-between;
 }
 .padding {
     padding: 40px 0;
+}
+.padding-nav-bar {
+    padding: 100px 0;
 }
 .width{
     width: 50%;
@@ -103,6 +112,7 @@ h1 {
    font-size: 24px;
    border-radius: 28px;
    padding: 16px 40px;
+   cursor: pointer;
 }
 .welcome {
     color: #ffffff;
